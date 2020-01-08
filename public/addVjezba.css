@@ -1,0 +1,193 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header, #footer  {
+    box-sizing: border-box;
+}
+#header {
+    height: 60px;
+    background-color: lightblue;
+}
+#logo {
+    float: left;
+    height: 35px;
+    width: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h1 {
+    font-size:2vw;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#meni {
+    padding-top: 0px;
+    clear: both;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#meni ul {
+    margin-top: 25px;
+}
+#meni li {
+    display: inline;
+}
+#footer {
+    clear: both;
+    background-color: lightblue;
+    height: 30px;
+}
+#footer p {
+    text-align: center;
+    margin-right: 20px;
+}
+#glavniSadrzaj{
+    box-sizing: border-box;
+    float: left;
+    width: 85%;
+    height: calc(100% - 90px); 
+    background-color:whitesmoke;
+    margin-left:7%;
+}
+#idForme1{
+    background-color:darkgray;
+    height: 150px;
+    width:35%;
+    margin: auto;
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+ h3{
+    text-align: center;
+    margin:0;
+}
+.label1{
+    float: left;
+    margin-left: 30%;
+    margin-top:1%;
+}
+input{
+    float: left;
+    clear: both;
+    margin-left: 30%;
+    width: 35%;
+    box-sizing: border-box;
+    
+}
+button{
+    float: left;
+    clear: both;
+    margin-top: 2%;
+    margin-left: 35%;
+    box-sizing: border-box;
+}
+
+#buttonDodaj1{
+    float: right;
+    clear: both;
+    margin-right: 12%;
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 599px) {
+ 
+    #glavniSadrzaj{
+        width: 100%;
+        background: aqua;
+        margin-left:0%;
+    }
+ 
+}
+#idForm2{
+    background-color:darkgray;
+    height: 250px;
+    width:35%;
+    margin: auto;
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+
+.label2{
+    float: left;
+    margin-left: 30%;
+    margin-top:1%;
+}
+table {
+    margin-top: 10%;
+    margin-left: -35%;
+    background-color: white;
+    float:left;
+    border: 1px solid black;
+    width: 35%;
+}
+td{
+  
+  font-size:1vw;
+  box-sizing: border-box;
+}
+ tr:hover {
+    background-color: blue;
+}
+#polaDugmeta{
+    margin-top: 1%;
+    width: 20%;
+    box-sizing: border-box;
+    clear: both;
+    margin-bottom: 0%;
+}
+
+#spiralaText{
+    float:right;
+    margin-right:57%;
+    margin-top: -4%;
+    font-size: 1vw; 
+}
+
+#buttonDodaj10{
+    font-size:1vw;
+    float: right;
+    clear: both;
+    margin-right: 15%;
+    margin-top: -2%;
+    box-sizing: border-box;
+}
+select{
+    float: left;
+    clear: both;
+    margin-left: 30%;
+    width: 35%;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    float: right;
+    clear: both;
+    margin-right: 12%;
+    margin-top: 1%;
+    box-sizing: border-box;
+    width: 22%;
+
+}
+select[name="sZadatak"]{
+    margin-top: 1%;
+    width: 30%;
+    box-sizing: border-box;
+    clear: both;
+    margin-bottom: 0%;
+  
+}
+button[name=dZadatak]{
+    width: 30%;
+    float: right;
+    margin-top:-5.1%;
+    margin-right: 8%;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1vw;
+}
+input[type=checkbox]{
+    margin-left: 14%;
+}

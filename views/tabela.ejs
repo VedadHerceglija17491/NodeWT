@@ -1,0 +1,39 @@
+
+<table> <tr> <th>Ime</th> <th>Prezime</th> <th>Adresa</th> <th>Broj telefona</th> </tr>
+                
+    <%for(var i = 0; i < niz.length; i++){ %>          
+   
+        <tr>
+        <td>
+       <%= niz[i].ime %> 
+        </td>
+        <td>
+        <%= niz[i].prezime %>
+        
+        </td>
+        <td>
+        <%= niz[i].adresa %>
+        </td>
+        <td>
+        <%= niz[i].broj_telefona %>
+        </td>
+        <td>
+        <form action="/ime" method ="POST">
+            
+            <input  type ="text" name="ime" value="<%= niz[i].ime %>" style="display: none">
+        <input type="submit" value="delete">
+        </form>
+        </td>
+        <td>
+        <form action="/unos2" method ="POST">
+            <input  type ="text" name="ime" value="<%= niz[i].ime %>" style="display: none">
+            <input  type ="text" name="prezime" value="<%= niz[i].prezime %>" style="display: none">
+            <input  type ="text" name="broj_telefona" value="<%= niz[i].broj_telefona %>" style="display: none">
+            <input  type ="text" name="adresa" value="<%= niz[i].adresa %>" style="display: none">
+            <input type="submit" value="edit">
+        </form>
+        </td>
+        </tr>
+    <% } %>
+
+    </table>

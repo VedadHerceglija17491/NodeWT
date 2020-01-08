@@ -1,0 +1,105 @@
+<!DOCTYPe html>
+<html lang="bs">
+    <head>
+        <title>Dodavanje vježbe/spirale</title>
+        <link href="addVjezba.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Dodavanje vježbe/spirale</h1>
+            <img id="logo" src="knjigaIkona.svg" alt="logo">
+            <div id="meni">
+                <ul>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="zadaci.html">Odabir vježbe</a></li>
+                    <li><a href="commiti.html">Pregled commita</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div id=glavniSadrzaj>
+            <div id= "idForme1">
+               
+                <h3>Dodavanje postojeće vježbe/spirale</h3>
+            <form name="fPostojeca">
+
+                    <label class="label1" for="fname">Godina</label>
+                    <select  name="sGodine">
+                
+                    <option value="0">2018/19</option>
+                    <option value="1">2017/18</option>
+                    <option value="2">2016/17</option>
+                    </select>
+                    <label class="label1" for="fname">Vježbe/Spirale</label>
+                    <select  name="sVježbe">
+                
+                            <option value="0">Vježbe X</option>
+                            <option value="1">Vježbe 1</option>
+                            <option value="2">Vježbe 2</option>
+                    </select>
+                    <input type="submit" name="submit" value="Dodaj">
+
+  
+            </form>
+            </div>
+            <div id= "idForm2">
+               
+                    <h3>Nova vježba/spirala</h3>
+                <form name="fNova">
+    
+                        <label class="label2" for="fname">Naziv vježbe</label>
+                        <input type="text" id="fname" name="fname" value="Vježba X *">
+                        <label class="label2" for="fname">Godina</label>
+                        <select  name="sGodine">
+                
+                                <option value="0">2018/19</option>
+                                <option value="1">2017/18</option>
+                                <option value="2">2016/17</option>
+                        </select>
+                        <table>
+                                <tr>
+                                  <td>Zadatak 1</td>
+                                </tr>
+                                <tr>
+                                  <td>Zadatak 2</td>
+                                </tr>
+                                <tr>
+                                  <td>Zadatak 3</td>
+                                </tr>
+                        </table>
+                        <select  name="sZadatak">
+                
+                                <option value="0">ZADADATK X</option>
+                                <option value="1">ZADATAK Y</option>
+                                <option value="2">ZADATAK Z</option>
+                        </select>
+                        <button type="button" name="dZadatak" >Dodaj Zadatak</button>
+                        <input  type="checkbox" name="sprala" > 
+                        <label id="spiralaText" for="fname">Spirala</label>
+                        <button id="buttonDodaj10">Dodaj</button>
+                        
+                        
+                     
+                        
+    
+      
+                </form>
+                </div>
+        </div>
+       
+           
+        
+        <div id="footer">
+            <p>Web tehnologije 2018/19</p>
+        </div>
+    </body>
+</html>

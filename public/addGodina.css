@@ -1,0 +1,127 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header, #footer  {
+    box-sizing: border-box;
+}
+#header {
+    height: 60px;
+    background-color: lightblue;
+}
+#logo {
+    float: left;
+    height: 35px;
+    width: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h1 {
+    font-size:2vw;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#meni {
+    padding-top: 0px;
+    clear: both;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#meni ul {
+    margin-top: 25px;
+}
+#meni li {
+    display: inline;
+}
+#footer {
+    clear: both;
+    background-color: lightblue;
+    height: 30px;
+}
+#footer p {
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+#side{
+    box-sizing: border-box;
+    float: left;
+    width: 35%;
+    height: calc(100% - 80px);
+    background-color: chocolate;
+}
+#glavniSadrzaj{
+    box-sizing: border-box;
+    float: left;
+    width: 65%;
+    height: calc(100% - 80px);
+    background-color: coral;
+    overflow: scroll;
+}
+
+h3{
+    text-align: center;
+    margin:0;
+    margin-top: 3%;
+}
+.label1{
+    float: left;
+    margin-left: 28%;
+    margin-top:2%;
+    clear: both;
+}
+input{
+    float: left;
+    clear: both;
+    margin-left: 28%;
+    width: 40%;
+    box-sizing: border-box;
+    margin-top: 2%;
+}
+input[type=submit]{
+    float: right;
+
+    margin-right: 25%;
+    margin-top: 7%;
+    box-sizing: border-box;
+    width: 22%;
+}
+#ponisti{
+    float: left;
+    margin-top: -4.6%;
+    margin-left: 25%;
+    width: 22%;
+    box-sizing: border-box;
+}
+.godina{
+    
+    border: 1px solid blue;
+    width:40%;
+    height: 28%;
+    float:left;
+    background-color: chartreuse;
+    text-align: center;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+h4{
+    text-align: center;
+    margin:0;
+    margin-top: 3%;
+    font-weight: normal;
+}
+@media only screen and (max-width: 599px) {
+  
+    #glavniSadrzaj {
+        width: 100%;
+    }
+    #side{
+        width: 100%;
+    }
+}

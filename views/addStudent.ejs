@@ -1,0 +1,75 @@
+<!DOCTYPe html>
+<html lang="bs">
+    <head>
+        <title>Dodavanje studenta</title>
+        <link href="addStudent.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Dodavanje studenta</h1>
+            <img id="logo" src="knjigaIkona.svg" alt="logo">
+            <div id="meni">
+                <ul>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="zadaci.html">Odabir vježbe</a></li>
+                    <li><a href="commiti.html">Pregled commita</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div id=glavniSadrzaj>
+            <div id= "idForme1">
+                    <h3>Pojedinačni unos</h3>
+                <form name ="fpostojeca">
+                    <label class="label1" >Godina</label>
+                    <select  name="godina">
+                
+                            <option value="0">2018/19</option>
+                            <option value="1">2017/18</option>
+                            <option value="2">2016/17</option>
+                    </select>
+                    <label class="label1" >Ime i prezime</label>
+                    <input type="text"  name="ime" >
+                    <label class="label1">Index</label>
+                    <input type="number"  name="index" >
+                    <label class="label1">Email</label>
+                    <input type="email"  name="email" >
+                    <input type="submit" name="submit" value="Unesi">
+                </form>
+        </div>
+        <div id= "idForme2">
+                <h3>Masovni unos</h3>
+            <form name ="fMasovni">
+                <label class="label1">Godina</label>
+                <select  name="godina">
+            
+                        <option value="0">2018/19</option>
+                        <option value="1">2017/18</option>
+                        <option value="2">2016/17</option>
+                </select>
+                <label class="label1">CSV fajl</label>
+                <input type="file" name="csv lista">
+                <input type="submit" name="submit" value="Unesi" id="unesi">
+                
+                
+            </form>
+            
+            </div>
+        </div>
+       
+           
+        
+        <div id="footer">
+            <p>Web tehnologije 2018/19</p>
+        </div>
+    </body>
+</html>

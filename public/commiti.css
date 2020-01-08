@@ -1,0 +1,81 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header, #footer{
+    box-sizing: border-box;
+}
+#header {
+    height: 170px;
+    background-color: lightblue;
+}
+#logo {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    float: right;
+    
+}
+#meni {
+    padding-top: 15px;
+    clear: both;
+
+}
+#meni ul {
+    margin-top: 25px;
+}
+#meni li {
+    display: inline;
+}
+#footer {
+    clear: both;
+    background-color: lightblue;
+    height: 60px;
+}
+#footer p {
+    text-align: center;
+    margin-right: 20px;
+}
+#glavni{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    height: calc(100% - 230px); 
+    background-color: darkgrey;
+}
+table {
+    border: 3px solid blue;
+    width: 80%;
+    height: 54%;
+    margin-left: 10%;
+    margin-top:2%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+ th, td {
+    border: 3px solid blue;
+    text-align: center;
+    text-decoration: underline;
+    color:blue;
+}
+#glavni{
+    font-size: 15px;
+}
+#pocaci{
+    width: 20%;
+    height: 30%;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 599px) {
+    #header {
+        height: 250px;
+    }
+    h1 {
+        position: absolute;
+        top: 150px;
+    }
+ 
+}

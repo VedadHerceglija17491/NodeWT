@@ -1,0 +1,126 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header, #footer  {
+    box-sizing: border-box;
+}
+#header {
+    height: 60px;
+    background-color: lightblue;
+}
+#logo {
+    float: left;
+    height: 35px;
+    width: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h1 {
+    font-size:2vw;
+    float: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#meni {
+    padding-top: 0px;
+    clear: both;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#meni ul {
+    margin-top: 25px;
+}
+#meni li {
+    display: inline;
+}
+#footer {
+    clear: both;
+    background-color: lightblue;
+    height: 30px;
+}
+#footer p {
+    text-align: center;
+    margin-right: 20px;
+}
+#glavniSadrzaj{
+    box-sizing: border-box;
+    float: left;
+    width: 85%;
+    height: calc(100% - 90px); 
+    background-color:whitesmoke;
+    margin-left:7%;
+}
+h3{
+    text-align: center;
+    margin:0;
+}
+#idForme1{
+    background-color:darkgray;
+    height: 220px;
+    width:43%;
+    margin: auto;
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+.label1{
+    float: left;
+    margin-left: 30%;
+    margin-top:1%;
+}
+select{
+    float: left;
+    clear: both;
+    margin-left: 30%;
+    width: 35%;
+    box-sizing: border-box;
+}
+input{
+    float: left;
+    clear: both;
+    margin-left: 30%;
+    width: 35%;
+    box-sizing: border-box;
+}
+input[name="csv lista"]{
+    margin-top: 1%;
+    width: 30%;
+    box-sizing: border-box;
+    clear: both;
+    margin-bottom: 0%;
+}
+#labelNofile{
+    float: right;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-right: 25%;
+    clear: none;
+    margin-left: 0%;
+    
+}
+#idForme2{
+    background-color:darkgray;
+    height: auto;
+    width:43%;
+    margin: auto;
+    margin-top: 1%;
+    box-sizing: border-box;
+    height: 160px;
+}
+input[type=file]{
+    width: 100%;
+    font-size: 1vw;
+}
+#unesi{
+    margin-top: 5%;
+}
+@media only screen and (max-width: 599px) {
+ 
+    #glavniSadrzaj{
+        width: 100%;
+        background: aqua;
+        margin-left:0%;
+    }
+ 
+}

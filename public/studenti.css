@@ -1,0 +1,98 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header, #footer, #side, #glavniSadrzaj {
+    box-sizing: border-box;
+}
+#header {
+    height: 200px;
+    background-color: lightblue;
+}
+#logo {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    float: right;
+}
+#meni {
+    padding-top: 15px;
+    clear: both;
+
+}
+#meni ul {
+    margin-top: 25px;
+}
+#meni li {
+    display: inline;
+}
+#side {
+    float: left;
+    width: 35%;
+    background-color:burlywood;
+}
+#side h3 {
+    text-align: center;
+}
+#side ul {
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+    height: 80%;
+    list-style: none;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#glavniSadrzaj {
+    float: right;
+    width: 65%;
+    background-color: blanchedalmond;
+   
+
+}
+
+#side, #glavniSadrzaj {
+    height: calc(100% - 300px);
+}
+#glavniSadrzaj table {
+    border: 1px solid blue;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+#side li:hover {
+    background-color: blue;
+}
+#footer {
+    clear: both;
+    background-color: lightblue;
+    height: 100px;
+}
+#footer p {
+    text-align: center;
+    margin-right: 20px;
+}
+table, tr,td,th {
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 599px) {
+    #header {
+        height: 250px;
+    }
+    h1 {
+        position: absolute;
+        top: 150px;
+    }
+    #side, #glavniSadrzaj {
+        width: 100%;
+    }
+}

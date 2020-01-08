@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+ 
+<HTML lang="bs">
+    <head>
+        <title>Dodavanje godine</title>
+        <link href="addGodina.css" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+         <script src = "pomocnaSkripta.js" ></script>
+         <script src = "GodineAjax.js"></script>
+
+        <div id="header">
+            <h1>Dodavanje godine</h1>
+            <img id="logo" src="knjigaIkona.svg" alt="logo">
+            <div id="meni">
+                <ul>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="zadaci.html">Odabir vježbe</a></li>
+                    <li><a href="commiti.html">Pregled commita</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="addGodina.html">Dodavanje godine</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div id="side">
+
+                <h3>Pojedinačni unos</h3>
+                <form action="/addGodina" method ="POST">
+                <label class="label1">Naziv godine</label>
+                <input type="text"  name="nazivGod">
+                <label class="label1">Nazivi repozitorija vježbe</label>
+                <input type="text"  name="nazivRepVje">
+                <label class="label1" >Nazivi repozitorija spirale</label>
+                <input type="text"  name="nazivRepSpi">
+                <input type="submit" name="submit1" value="Unesi">
+            </form>
+                <input type="submit" name="submit" value="Poništi" id="ponisti">
+            
+        </div>
+        <div id="glavniSadrzaj">
+              
+                
+             
+
+        </div>
+        
+       
+           
+        
+        <div id="footer">
+            <p>Web tehnologije 2018/19</p>
+        </div>
+    </body>
+</HTML>
